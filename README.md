@@ -25,7 +25,11 @@ If you like it and you want to try the best Digital Signage Experience go to spr
 
 
 
+##How to Begin##
+You can run the youplugyDS on your own environment or in the cloud like Amazon *to be covered later*
 
+**Windows / Linux Setup **
+*Download Xibo Open-Source CMS Version 1.7.9 here http://xibo.org.uk/get-xibo/ or 
 
 
 
