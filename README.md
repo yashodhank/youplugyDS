@@ -26,10 +26,31 @@ If you like it and you want to try the best Digital Signage Experience go to spr
 
 
 ##How to Begin##
-You can run the youplugyDS on your own environment or in the cloud like Amazon *to be covered later*
+You can run the youplugyDS in any environment with PHP 5.3.3 or above, MySQL with PHP PDO support and Apache / IIS / Ngiex
 
-**Windows / Linux Setup **
-*Download Xibo Open-Source CMS Version 1.7.9 here http://xibo.org.uk/get-xibo/ or 
+###Docker - soon###
+
+###Cloud (Amazon AWS) - soon###
+
+###Local Windows / Linux Setup###
+*Download Xibo Open-Source CMS Version 1.7.9 here http://xibo.org.uk/get-xibo/ or https://github.com/youplugy/youplugyDS/blob/master/cms/xibo-cms-1.7.9.zip
+*Follow the Xibo CMS Setup Instructions here: http://xibo.org.uk/manual/en/install_environment.html
+*Download the Beta youplugyDS player: (send me an email: ricardogil@youplugy.com.br and I will provide you the apk. The source code I should upload soon to this repo)
+
+
+##Current / Supported features##
+* Registration and connectivity with CMS
+* Download Schedule, Files
+* Upload Logs and Stats
+* Play Images, Videos, Text(some issues), WebPage, DataSet, RSS(did not try yet)
+* Play layouts with single and many regions
+* Play different Schedules, Default Layout, change layouts, etc
+* Load new layouts and its medias as soon something is updated in the CMS
+* Starts on boot as Launcher
+
+##Missing features / Need help from the community##
+* Small fixes on interface, menus, texts, etc
+* TBD -- there are some things yet to add here...
 
 
 
