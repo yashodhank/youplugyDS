@@ -35,6 +35,9 @@ You can run the youplugyDS in any environment with PHP 5.3.3 or above, MySQL wit
 ###Local Windows / Linux Setup###
 *Download Xibo Open-Source CMS Version 1.7.9 here http://xibo.org.uk/get-xibo/ or https://github.com/youplugy/youplugyDS/blob/master/cms/xibo-cms-1.7.9.zip
 *Follow the Xibo CMS Setup Instructions here: http://xibo.org.uk/manual/en/install_environment.html
+
+** If you are using XAMPP, please make sure to enable SOAP extension. Go to xamppDir/php/php.ini and uncomment extension=php_soap.dll . It is required to install Xibo CMS 
+
 *Download the Beta youplugyDS player: (send me an email: ricardogil@youplugy.com.br or download the first version here: https://github.com/youplugy/youplugyDS/blob/master/cms/app-release.apk . The source code I should upload soon to this repo)
 Some messages are in portuguese but in this version all you need is to put your Xibo CMS 1.7.9 server url and the server key and hit connect.
 If it is the first time, after connect go back to CMS and Register the new Display. Hit Connect again and it should start downloading the assigned layout contents.
